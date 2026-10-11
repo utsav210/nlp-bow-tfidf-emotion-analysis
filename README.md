@@ -8,12 +8,15 @@ A Machine Learning and Natural Language Processing project that classifies textu
 
 ```text
 NLP-Project/
-├── .gitignore                          # Comprehensive ignore rules for Python, venv, Jupyter, and Streamlit
-├── requirements.txt                    # Project dependencies
-├── train.txt                           # Labeled training dataset (16,000 text-emotion pairs)
-├── NLP_using_Bag_of_Words_TF-IDF.ipynb # Notebook exploring BoW, TF-IDF, Naive Bayes & Logistic Regression
-├── app.py                              # Interactive Streamlit Frontend Application
-└── README.md                           # Documentation and setup guide
+├── .gitignore                              # Comprehensive ignore rules for Python, venv, Jupyter, and Streamlit
+├── requirements.txt                        # Project dependencies
+├── train.txt                               # Labeled training dataset (16,000 text-emotion pairs)
+├── NLP_using_Bag_of_words_and_tf_idf.ipynb # Notebook exploring BoW, TF-IDF, Naive Bayes & Logistic Regression
+├── emotion_map.pkl                         # Emotion class dictionary mapping
+├── logistic_model.pkl                      # Trained Logistic Regression model
+├── tfidf_vectorizer.pkl                    # Fitted TF-IDF vectorizer
+├── app.py                                  # Interactive Streamlit Frontend Application
+└── README.md                               # Documentation and setup guide
 ```
 
 ---
