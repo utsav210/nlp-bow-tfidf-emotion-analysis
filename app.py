@@ -9,6 +9,8 @@ import re
 import string
 import pickle
 import json
+import warnings
+warnings.filterwarnings('ignore')
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -196,7 +198,7 @@ def find_and_load_artifacts():
                         pass
 
             # Emotion mapping file
-            for map_name in ["id_to_emotion.pkl", "label_mapping.pkl", "emotion_mapping.pkl"]:
+            for map_name in ["emotion_map.pkl", "id_to_emotion.pkl", "label_mapping.pkl", "emotion_mapping.pkl"]:
                 p = os.path.join(d, map_name)
                 if os.path.exists(p):
                     try:
