@@ -202,7 +202,7 @@ To link this repository to a remote repository on GitHub:
 
 ```bash
 # 1. Add your GitHub remote repository URL
-git remote add origin https://github.com/utsav210/<YOUR-REPO-NAME>.git
+git remote add origin https://github.com/utsav210/nlp-bow-tfidf-emotion-analysis.git
 
 # 2. Push to GitHub
 git branch -M main
